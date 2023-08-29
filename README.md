@@ -1,1 +1,9 @@
-# -_-.2
+The provided Java code implements a simple "Guess the Number" game, offering users the opportunity to guess a randomly generated target number within a specified range. The game is console-based and executed in a loop, allowing users to participate in multiple rounds until they choose to exit. Upon initiation, the game greets the player and commences the first round.
+
+Within each round, a random target number is generated within a predefined lower and higher range, which is set to 1 and 100, respectively. Players are prompted to input their guesses. The code records the total number of rounds, attempts, and scores throughout the game.
+
+Players are given a maximum number of attempts, set to 2, to guess the target number. If the player's guess matches the target number, a round score is calculated based on the remaining attempts, and the score is added to the player's total score. The program then displays a congratulatory message along with the round and total scores. If the guess is incorrect, the program indicates whether the guess was too high or too low and displays the remaining attempts.
+
+If the player exhausts all attempts without guessing the correct number, they are informed of the correct target number. After each round, players are prompted to decide whether they wish to play another round or exit the game. If the player chooses not to continue, the program displays the total number of rounds played, the total attempts made, and the cumulative score achieved across all rounds.
+
+The game loop allows players to engage in multiple rounds until they opt to quit. The code uses a `Scanner` to receive user input for guesses and to determine whether players want to continue playing. Additionally, the code employs a `Random` object to generate the target number for each round within the specified range. This "Guess the Number" game provides an interactive and enjoyable experience for players, showcasing fundamental Java programming concepts such as user input, loops, conditional statements, and random number generation.
